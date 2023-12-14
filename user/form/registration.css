@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    font-family: 'Jost';font-size: 22px;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto; 
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+position: fixed; 
+    background: #F6F6F6;
+    width: 100%;
+    z-index: 100; 
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_icon {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 48%;
+    top: 20px;
+}
+
+.form_registration {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 415px;
+    top: 167px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 165px;
+    top: 49px;
+}
+
+.registration_title {
+    position: absolute;
+    width: 150px;
+    height: 46px;
+    left: 165px;
+    top: 129px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    
+    color: #000000;
+}
+
+.username_block {
+    position: absolute;
+    width: 370px;
+    height: 72px;
+    left: 165px;
+    top: 200px;
+}
+
+.UaEaPaNaB_name {
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #000000;
+    
+}
+
+.UaEaPaNaB_button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 48px;
+    left: 0px;
+    top: 24px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: 1px solid #A6A5AD;
+    padding-left: 10px;
+}
+
+.email_block {
+    position: absolute;
+    width: 370px;
+    height: 72px;
+    left: 165px;
+    top: 290px;
+}
+
+.number_block {
+    position: absolute;
+    width: 370px;
+    height: 72px;
+    left: 165px;
+    top: 380px;
+}
+
+.password_block {
+    position: absolute;
+    width: 370px;
+    height: 72px;
+    left: 165px;
+    top: 470px;
+}
+
+.registration_block {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 185px;
+    top: 560px;
+}
+
+.registration_button {
+    position: absolute;
+    width: 330px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+
+    text-align: center;
+    color: #FFFFFF;
+    background: #120083;
+    border-radius: 100px;
+    cursor: pointer
+}
+
+.login_block {
+    position: absolute;
+    width: 330px;
+    height: 30px;
+    left: 165px;
+    top: 620px;
+
+}
+
+.login_text1 {
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 0px;
+    top: 4px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #000000;
+}
+
+.login_text2 {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 100px;
+    top: 4.34px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    
+    text-decoration: none;
+    color: #120083;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0px;
+    top: 833px;
+    background-color: black;
+    
+}
+
+.footerfacebookicon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 32%;
+    top: 30px;
+}
+
+.footerinstagramicon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 48.7%;
+    top: 30px;
+}
+
+.footertwittericon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 66%;
+    top: 30px;
+}
+
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0px;
+    top: 933px;
+    background-color: black;
+    
+}
+
+.footerfacebookicon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 32%;
+    top: 30px;
+}
+
+.footerinstagramicon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 48.7%;
+    top: 30px;
+}
+
+.footertwittericon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 66%;
+    top: 30px;
+}
